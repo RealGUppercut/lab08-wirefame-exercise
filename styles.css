@@ -1,0 +1,58 @@
+#headercontainer {
+    display: flex;
+    height: auto;
+    background-color: gray;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+#headeritems {
+    display: flex;
+    height: 100px;
+    width: 960px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navitem {
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+#maincontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#herocontainer {
+    display: flex;
+    justify-content: center;
+}
+
+#subheadingcontainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#subheadingitems {
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+}
+
+#featuresection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10%
+}
+
+#footercontainer {
+    display: flex;
+    width: inherit;
+    height: 150px;
+    background-color: gray;
+}
